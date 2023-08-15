@@ -1,0 +1,3 @@
+Open powershell/cmd in video folder and run
+  
+for %A IN (*.mkv) do ( "C:\Program Files\MKVToolNix\mkvpropedit.exe" -d title "%~A")
